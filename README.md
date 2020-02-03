@@ -1,6 +1,8 @@
 # Funes
 
-Funes lets you decorate functions in such a way that their computations are memorized permanently to disk.
+Funes lets you decorate functions in such a way that their computations are memorized permanently to disk. This is extremely useful for scientific investigations in which partial results should be stored between runs -- hyperparameter searches being a good example. If the range of a hyperparameter search is extended, the computations from a previous run will complete instantly. Similarly, jobs can be cancelled part-way through, without requiring that the completed results are rerun. 
+
+Because the cache keys are definition-sensitive, changing a function definition in such a way that old results become invalid will automatically cause them to be recomputed.
 
 It is named after the Borges short story [Funes the Memories](https://en.wikipedia.org/wiki/Funes_the_Memorious).
 
