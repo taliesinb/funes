@@ -4,7 +4,7 @@ Funes lets you decorate functions in such a way that their computations are memo
 
 Because the cache keys are definition-sensitive, changing a function definition in such a way that old results become invalid will automatically cause them to be recomputed.
 
-It is named after the Borges short story [Funes the Memories](https://en.wikipedia.org/wiki/Funes_the_Memorious).
+It is named after the Borges short story [Funes the Memorious](https://en.wikipedia.org/wiki/Funes_the_Memorious).
 
 ## Background
 
